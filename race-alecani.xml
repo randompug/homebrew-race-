@@ -36,9 +36,6 @@
       <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_Wings" />
     </rules>
   </element>
-  
-   <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_Wings">
-    <description>
 			
 		</description>
 		<sheet display="false">
