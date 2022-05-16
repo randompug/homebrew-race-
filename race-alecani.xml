@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Brayherd</name>
+		<description></description>
+	    <update version="1.0">
+			<file name="race-Brayherd.xml" url=""/>
+		</update>
+	</info>
+
+  <element name="Brayherd" type="Race" source="Homebrew" id="ID_HMBRW_RACE_BRAYHERD">
+    <description>
+      <h4>ALECANI</h4>
+      <p>These haughty beastmen owe their culture to otherworld travelers whom they worship as gods. Extremely tough in both mind and body, the Brayherds are renown throughout the world as exceptional warriors and extremely talented orators.</p> 
+      <span class="feature">Ability Score Increase.</span>Your Strength increases by 2, and one other ability score increases by 1.<br/>
+      <span class="feature">Age.</span>Brayherds reach maturity around the age of 16 and live for about 80 years.<br/>
+	  <span class="feature">Alignment</span>Brayherds are known to be rational in their own way, willing to give other ways of thinking a chance no matter how much they believe in their own superiority.<br/>
+      <span class="feature">Size.</span>Brayherds stand at about seven to eight feet tall, but usually somewhere in the middle. They have large, extremely muscular bodies around 200 to 300 pounds. Your size is medium.<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 40 feet.<br/>
+      <span class="feature">Darkvision.</span>Brayherd eyes are adapted to allow them to see just fine in the dark, an adaptation from their primitive past on the plains of Caprae Loco.<br/>
+    </description>
+    <sheet display="false"/>
+    <supports />
+    <setters>
+      <set name="height" modifier="2d8">7'0"</set>
+      <set name="weight" modifier="2d6">200 lb.</set>
+    </setters>
+    <rules>
+      <stat name="strength" value="2"/>
+      <stat name="any" value="1"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <select type="Language" name="ID_LANGUAGE_AURAN" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_Wings" />
+    </rules>
+  </element>
+  
+   <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_Wings">
+    <description>
+			<p> You have a flying speed of 50 feet. To use this speed, you canâ€™t be wearing medium or heavy armor, or armor you are not proficient in.</p>
+		</description>
+		<sheet display="false">
+			<description> You have a flying speed of 30 feet. To use this speed, you canâ€™t be wearing medium or heavy armor, or armor you are not proficient in.</description>
+		</sheet>
+  </element>
+</elements>
