@@ -39,10 +39,10 @@
   
    <element name="Wings" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_Wings">
     <description>
-			<p> You have a flying speed of 50 feet. To use this speed, you canâ€™t be wearing medium or heavy armor, or armor you are not proficient in.</p>
+			
 		</description>
 		<sheet display="false">
-			<description> You have a flying speed of 30 feet. To use this speed, you canâ€™t be wearing medium or heavy armor, or armor you are not proficient in.</description>
+			
 		</sheet>
   </element>
 </elements>
